@@ -6,7 +6,7 @@ OBJ = $(SRC:.c=.o)
 CC = cc
 INCLUDES= -Io_O
 FLAGS=-Wall -Wextra -Werror 
-LIBS=$(MINILIBX_LIB)
+LIBS=$(O_o)
 
 SERVER = srkvs 
 CLIENT_LIB = libsrkvs.a
