@@ -4,7 +4,7 @@ SRC=	\
 OBJ = $(SRC:.c=.o)
 
 CC = cc
-INCLUDES= -I$(MINILIBX_DIR) 
+INCLUDES= -Io_O
 FLAGS=-Wall -Wextra -Werror 
 LIBS=$(MINILIBX_LIB)
 
